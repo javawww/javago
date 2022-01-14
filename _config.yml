@@ -12,7 +12,7 @@ title: "挑战年薪30万-java开发" # the name of your site, e.g. ACME Corp.
 tagline: "An awesome tagline"
 email: "your.email@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
-author: name
+author: 坏孩子是你啊
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/javago" # the subpath of your site, e.g. /blog
 google_analytics: UA-111111111-1
