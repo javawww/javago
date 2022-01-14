@@ -1,6 +1,6 @@
 - name: 首页
-  link: javago/
-- name: 关于2
-  link: javago/about
-- name: 联系3
-  link: javago/contact
+  link: 
+- name: 关于
+  link: about
+- name: 联系
+  link: contact
