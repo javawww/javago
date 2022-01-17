@@ -10,28 +10,29 @@ excerpt: 使用Jekyll和Bootstrap，创建一个就像当前网站一样的静�
 ---
 ##### Header1 {#ID1}
 
-#### Header2 #### {#ID2}
+#### Header2 {#ID2}
 
-Header3 {#ID3}
------
+## Header3 {#ID3}
 
-|-----------------+------------+-----------------+----------------|
-| Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            |
-|-----------------+------------+-----------------+----------------|
-| Second body     |            |                 |                |
-| 2 line          |            |                 |                |
-|=================+============+=================+================|
-| Footer row      |            |                 |                |
-|-----------------+------------+-----------------+----------------|
+* * *
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
 
 [GoH1](#ID1), [GoH2](#ID2), [GoH3](#ID3)
 
 * * *
-~~~java
+```java
 public class User {
+  /**
+  * 这是一段多行注释
+  **/
+  public static void main(String[] args){
+    // 这是一段单行注释
+    System.out.println("Hello World!!!");
+  }
 }
-~~~
+```

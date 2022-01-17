@@ -80,6 +80,7 @@ DEPENDENCIES
   jekyll-sitemap
   kramdown-math-katex
   kramdown-parser-gfm
+  rouge
 
 BUNDLED WITH
    2.3.5

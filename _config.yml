@@ -21,6 +21,9 @@ twitter:
   card: summary #keep this to generate a twitter share card
 
 # Build settings
+permalink: /:year/:month/:title/
 markdown: kramdown
+highlighter: rouge
 kramdown:
   syntax_highlighter: rouge
+cover_color: clear #背景Mask
