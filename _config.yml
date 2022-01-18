@@ -20,10 +20,15 @@ twitter:
   username:
   card: summary #keep this to generate a twitter share card
 
-# Build settings
-permalink: /:year/:month/:title/
-markdown: kramdown
+# 高亮的语法处理配置
 highlighter: rouge
+markdown: kramdown
+
+redcarpet:
+  extensions: ["fenced_code_blocks", "tables", "highlight", "strikethrough"]
+
 kramdown:
+  input:         GFM
+  auto_ids:      true
+  auto_id_prefix: 'id-'
   syntax_highlighter: rouge
-cover_color: clear #背景Mask

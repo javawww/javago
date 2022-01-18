@@ -4,8 +4,11 @@ source "https://gems.ruby-china.com"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
+gem 'github-pages'
+gem 'wdm'
 gem "jekyll"
 gem "rouge"
+gem 'kramdown'
 gem "kramdown-math-katex"
 gem "kramdown-parser-gfm"
 gem 'execjs', '2.7'

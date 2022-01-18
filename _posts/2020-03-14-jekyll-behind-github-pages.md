@@ -16,15 +16,20 @@ excerpt: 使用Jekyll和Bootstrap，创建一个就像当前网站一样的静�
 
 * * *
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
 
 [GoH1](#ID1), [GoH2](#ID2), [GoH3](#ID3)
 
+Try to put a blank line before...
+
+> This is a blockquote
+
+...and after a blockquote.
 * * *
+
 ```java
 public class User {
   /**
